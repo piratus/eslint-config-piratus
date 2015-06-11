@@ -1,0 +1,31 @@
+{
+  "name": "@piratus/eslint-config-piratus",
+  "version": "0.1.0",
+  "description": "My everyday ESLint config",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "WTFPL",
+  "author": {
+    "name": "Andrew Popovych",
+    "email": "piratus@gmail.com",
+    "url": "http://piratus.net/"
+  },
+  "main": "base.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://piratus.github.com/eslint-config-piratus.git"
+  },
+  "bugs": "https://piratus.github.com/eslint-config-piratus/issues",
+  "peerDependencies": {
+    "babel-eslint": ">=3",
+    "eslint": ">=0.22"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-react": ">=2.3"
+  },
+  "dependencies": {
+    "lodash.merge": "^3.3.1"
+  }
+}
