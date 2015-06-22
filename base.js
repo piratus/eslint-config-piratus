@@ -154,7 +154,7 @@ module.exports = {
     'one-var': [2, 'never'],  // allow or disallow one variable declaration per function (off by default)
     'operator-assignment': 0,  // require assignment operator shorthand where possible or prohibit it entirely (off by default)
     'operator-linebreak': [2, 'after'],  // enforce operators to be placed before or after line breaks (off by default)
-    'padded-blocks': [2, 'never'],  // enforce padding within blocks (off by default)
+    'padded-blocks': 0,  // enforce padding within blocks (off by default)
     'quote-props': [2, 'as-needed'],  // require quotes around object literal property names (off by default)
     'quotes': [2, 'single'],  // specify whether backticks, double or single quotes should be used
     'semi-spacing': 2,  // enforce spacing before and after semicolons
@@ -177,6 +177,6 @@ module.exports = {
     'generator-star-spacing': [2, 'before'],  // enforce the spacing around the * in generator functions (off by default)
     'generator-star': 0,  // (deprecated) enforce the position of the * in generator functions (off by default)
     'no-var': 2,  // require let or const instead of var (off by default)
-    'object-shorthand': [2, 'always'],  // require method and property shorthand syntax for object literals (off by default)
+    'object-shorthand': [0, 'always'],  // require method and property shorthand syntax for object literals (off by default)
   }
 };
