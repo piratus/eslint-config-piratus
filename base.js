@@ -149,7 +149,6 @@ module.exports = {
     'no-trailing-spaces': 2,  // disallow trailing whitespace at the end of lines
     'no-underscore-dangle': 0,  // disallow dangling underscores in identifiers
     'no-unneeded-ternary': 0,  // disallow the use of Boolean literals in conditional expressions (off by default)
-    'no-wrap-func': 2,  // disallow wrapping of non-IIFE statements in parens
     'object-curly-spacing': [2, 'never'],  // require or disallow padding inside curly braces (off by default)
     'one-var': [2, 'never'],  // allow or disallow one variable declaration per function (off by default)
     'operator-assignment': 0,  // require assignment operator shorthand where possible or prohibit it entirely (off by default)
@@ -165,12 +164,11 @@ module.exports = {
     'space-before-blocks': [2, 'always'],  // require or disallow space before blocks (off by default)
     'space-before-function-paren': [2, {anonymous: 'always', named: 'never'}],  // require or disallow space before function opening parenthesis (off by default)
     'space-before-function-parentheses': 0,  // (deprecated) require or disallow space before function parentheses (off by default)
-    'space-in-brackets': [2, 'never'],  // require or disallow spaces inside brackets (off by default)
     'space-in-parens': [2, 'never'],  // require or disallow spaces inside parentheses (off by default)
     'space-infix-ops': 2,  // require spaces around operators
     'space-return-throw-case': 2,  // require a space after return, throw, and case
     'space-unary-ops': 0,  // Require or disallow spaces before/after unary operators (words on by default, nonwords off by default)
-    'spaced-line-comment': [2, 'always', {exceptions: ['-+=*#']}],  // require or disallow a space immediately following the // in a line comment (off by default)
+    'spaced-comment': [2, 'always', {exceptions: ['-+=*#']}],  // require or disallow a space immediately following the // in a line comment (off by default)
     'wrap-regex': 0,  // require regex literals to be wrapped in parentheses (off by default)
 
     /** ECMAScript 6 */
