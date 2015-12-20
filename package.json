@@ -1,6 +1,6 @@
 {
   "name": "@piratus/eslint-config-piratus",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "My everyday ESLint config",
   "keywords": [
     "eslint",
@@ -19,11 +19,16 @@
   },
   "bugs": "https://piratus.github.com/eslint-config-piratus/issues",
   "optionalDependencies": {
-    "eslint-plugin-react": "3.8.x"
+    "eslint-plugin-react": "3.11.x"
   },
   "dependencies": {
-    "babel-eslint": "4.x",
-    "eslint": "1.x",
+    "babel-eslint": "5.0.0-beta6",
+    "eslint": "1.10.x",
+    "eslint-plugin-babel": "^3.0.0",
     "lodash.merge": "3.x"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "./react.js"
   }
 }
